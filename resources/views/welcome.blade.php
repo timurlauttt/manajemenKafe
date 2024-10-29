@@ -6,8 +6,11 @@
   @vite('resources/css/app.css')
 </head>
 <body>
-  <h1 class="text-3xl text-center font-bold underline">
-    Hello world!
-  </h1>
+ <a href="{{ route('dashboard') }}">
+  <button>
+    klik
+  </button>
+ </a>
+
 </body>
 </html>
